@@ -1,0 +1,50 @@
+html, body, #container {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+}
+
+#firstPict {
+  flex-basis: 50%;
+  height: 30vh;
+}
+
+#firstPict img {
+  width: 100%;
+  height: 100%;
+}
+
+#firstText {
+  flex-basis: 50%;
+  color: #F2EBEA;
+  font-family: system-ui;
+  background-color:#CBADF0;
+  font-size: 3em;
+  text-align: center;
+  line-height: 30vh;
+}
+
+#secondText {
+  flex-basis: 100%;
+  height: 40vh;
+  color: #F2EBEA;
+  font-family: system-ui;
+  background-color: #A6AEF8;
+  font-size: 3em;
+  text-align: center;
+  line-height: 40vh;
+}
+
+#secondPict img {
+  width: 100%;
+  height: 30vh;
+}
+#secondPict  {
+  flex-basis: 100%;
+}

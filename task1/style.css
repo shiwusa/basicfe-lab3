@@ -1,0 +1,45 @@
+html, body, #container {
+	margin: 0;
+	height: 100%;
+}
+
+#firstPict  {
+	height: 30vh;
+	width: 100%;
+
+}
+#firstPict img {
+	float: left;
+	width: 50%;
+	height: 30vh;
+
+}
+
+#firstText {
+	float: right;
+	width: 50%;
+	text-align: center;
+	line-height: 30vh;
+	font-size: 3em;
+	background-color:#CBADF0;
+	color: #F2EBEA;
+	font-family: system-ui;
+}
+
+#secondText {
+	text-align: center;
+	line-height: 40vh;
+	font-size: 3em;
+	clear: both;
+	background-color: #A6AEF8;
+	color: #F2EBEA;
+	font-family: system-ui;
+}
+
+#secondPict {
+	height: 30vh;
+}
+#secondPict img {
+		width: 100%;
+		height: 100%;	
+}
